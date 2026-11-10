@@ -1,8 +1,8 @@
 function init(){
 document.getElementById("entrybutton").addEventListener("click", function() {
     window.alert("Noah: " + document.getElementById("entryinput"));
-    document.getElementById("textoutput").innerHTML = input;
-    })
+    document.getElementById("textoutput").innerHTML = document.getElementById("entryinput");
+    });
 }
 
 
