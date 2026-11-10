@@ -1,7 +1,7 @@
 function init(){
-document.getElementByID("entrybutton").addEventListener("click", function() {
-    window.alert("Noah: " + document.getElementByID("entryinput"));
-    document.getElementByID("textoutput").innerHTML = input;
+document.getElementById("entrybutton").addEventListener("click", function() {
+    window.alert("Noah: " + document.getElementById("entryinput"));
+    document.getElementById("textoutput").innerHTML = input;
     })
 }
 
