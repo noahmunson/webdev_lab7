@@ -1,7 +1,7 @@
 function init(){
-let button = document.getElementByID("entrybutton");
-let input = document.getElementByID("entryinput");
-let h2 = document.getElementByID("textoutput");
+var button = document.getElementByID("entrybutton");
+var input = document.getElementByID("entryinput");
+var h2 = document.getElementByID("textoutput");
 button.addEventListener("click", function() {
     window.alert("Noah: " + input);
     h2.innerHTML = input;
